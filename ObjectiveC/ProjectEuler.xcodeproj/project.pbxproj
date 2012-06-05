@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2AC1AD1157D98EF00047202 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AC1AD0157D98EF00047202 /* Foundation.framework */; };
+		D2AC1AD4157D98EF00047202 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AC1AD3157D98EF00047202 /* main.m */; };
+		D2AC1AD8157D98EF00047202 /* ProjectEuler.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D2AC1AD7157D98EF00047202 /* ProjectEuler.1 */; };
+		D2AC1AE0157D998700047202 /* Problem.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AC1ADF157D998700047202 /* Problem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D2AC1ACA157D98EF00047202 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				D2AC1AD8157D98EF00047202 /* ProjectEuler.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D2AC1ACC157D98EF00047202 /* ProjectEuler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEuler; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AC1AD0157D98EF00047202 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AC1AD3157D98EF00047202 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2AC1AD6157D98EF00047202 /* ProjectEuler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProjectEuler-Prefix.pch"; sourceTree = "<group>"; };
+		D2AC1AD7157D98EF00047202 /* ProjectEuler.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ProjectEuler.1; sourceTree = "<group>"; };
+		D2AC1ADF157D998700047202 /* Problem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AC1AC9157D98EF00047202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AC1AD1157D98EF00047202 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2AC1AC1157D98EE00047202 = {
+			isa = PBXGroup;
+			children = (
+				D2AC1AD2157D98EF00047202 /* ProjectEuler */,
+				D2AC1ACF157D98EF00047202 /* Frameworks */,
+				D2AC1ACD157D98EF00047202 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2AC1ACD157D98EF00047202 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AC1ACC157D98EF00047202 /* ProjectEuler */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2AC1ACF157D98EF00047202 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2AC1AD0157D98EF00047202 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2AC1AD2157D98EF00047202 /* ProjectEuler */ = {
+			isa = PBXGroup;
+			children = (
+				D2AC1AD3157D98EF00047202 /* main.m */,
+				D2AC1AD7157D98EF00047202 /* ProjectEuler.1 */,
+				D2AC1AD5157D98EF00047202 /* Supporting Files */,
+				D2AC1ADF157D998700047202 /* Problem.m */,
+			);
+			path = ProjectEuler;
+			sourceTree = "<group>";
+		};
+		D2AC1AD5157D98EF00047202 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2AC1AD6157D98EF00047202 /* ProjectEuler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2AC1ACB157D98EF00047202 /* ProjectEuler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2AC1ADB157D98EF00047202 /* Build configuration list for PBXNativeTarget "ProjectEuler" */;
+			buildPhases = (
+				D2AC1AC8157D98EF00047202 /* Sources */,
+				D2AC1AC9157D98EF00047202 /* Frameworks */,
+				D2AC1ACA157D98EF00047202 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectEuler;
+			productName = ProjectEuler;
+			productReference = D2AC1ACC157D98EF00047202 /* ProjectEuler */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2AC1AC3157D98EE00047202 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D2AC1AC6157D98EE00047202 /* Build configuration list for PBXProject "ProjectEuler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2AC1AC1157D98EE00047202;
+			productRefGroup = D2AC1ACD157D98EF00047202 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AC1ACB157D98EF00047202 /* ProjectEuler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AC1AC8157D98EF00047202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AC1AD4157D98EF00047202 /* main.m in Sources */,
+				D2AC1AE0157D998700047202 /* Problem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D2AC1AD9157D98EF00047202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D2AC1ADA157D98EF00047202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D2AC1ADC157D98EF00047202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProjectEuler/ProjectEuler-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2AC1ADD157D98EF00047202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProjectEuler/ProjectEuler-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2AC1AC6157D98EE00047202 /* Build configuration list for PBXProject "ProjectEuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AC1AD9157D98EF00047202 /* Debug */,
+				D2AC1ADA157D98EF00047202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2AC1ADB157D98EF00047202 /* Build configuration list for PBXNativeTarget "ProjectEuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AC1ADC157D98EF00047202 /* Debug */,
+				D2AC1ADD157D98EF00047202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2AC1AC3157D98EE00047202 /* Project object */;
+}
