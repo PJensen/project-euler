@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectEuler", "ProjectEuler.csproj", "{4C7CD722-5ED9-4D32-9B7C-0FDCBE5A001E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectEulerTest", "ProjectEulerTest\ProjectEulerTest.csproj", "{336015B3-B0EC-48A6-B5FA-DA08A0F5113D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{336015B3-B0EC-48A6-B5FA-DA08A0F5113D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{336015B3-B0EC-48A6-B5FA-DA08A0F5113D}.Debug|x86.Build.0 = Debug|Any CPU
+		{336015B3-B0EC-48A6-B5FA-DA08A0F5113D}.Release|x86.ActiveCfg = Release|Any CPU
+		{336015B3-B0EC-48A6-B5FA-DA08A0F5113D}.Release|x86.Build.0 = Release|Any CPU
+		{4C7CD722-5ED9-4D32-9B7C-0FDCBE5A001E}.Debug|x86.ActiveCfg = Debug|x86
+		{4C7CD722-5ED9-4D32-9B7C-0FDCBE5A001E}.Debug|x86.Build.0 = Debug|x86
+		{4C7CD722-5ED9-4D32-9B7C-0FDCBE5A001E}.Release|x86.ActiveCfg = Release|x86
+		{4C7CD722-5ED9-4D32-9B7C-0FDCBE5A001E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ProjectEulerTest\ProjectEulerTest.csproj
+	EndGlobalSection
+EndGlobal
